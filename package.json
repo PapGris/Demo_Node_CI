@@ -1,0 +1,29 @@
+{
+  "name": "demo_node_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node index.js",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PapGris/Demo_Node_CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PapGris/Demo_Node_CI/issues"
+  },
+  "homepage": "https://github.com/PapGris/Demo_Node_CI#readme",
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "globals": "^17.2.0"
+  }
+}
